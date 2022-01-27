@@ -1,0 +1,6 @@
+.boxes {
+    border-radius: 12px;
+    height: 30%;
+    background-color: #f2f3f4;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}

@@ -1,0 +1,9 @@
+.navBar {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+
+.title, .menu {
+}

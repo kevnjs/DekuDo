@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Chakra Petch', sans-serif;
 }
 
 .App-logo {
@@ -36,3 +37,24 @@
     transform: rotate(360deg);
   }
 }
+
+.background {
+  /* background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+
+}
+
+#container {
+  margin: 1% 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftMenu, .rightMenu {
+  width: 50%;
+  margin: 2% 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+

@@ -1,0 +1,110 @@
+.charContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.charCard {
+    border-radius: 12px;
+    width: 70%;
+    background-color: #f2f3f4;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+#character-img {
+    width: 40%;
+    background-image: url("../assets/cloud2.gif");
+    background-size: cover;
+    background-position: center;
+    margin-right: 5%;
+}
+
+.menuContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    width: 48%;
+}
+.display {
+    visibility: hidden;
+}
+
+.description {
+    height:60%;
+    width: 80%;
+    background-color: #f2f3f4;
+    border-radius: 5px;
+}
+
+.mainMenu {
+    height: 30%;
+    width: 80%;
+    background-color: #f2f3f4;
+    border-radius: 12px;
+    display: flex;
+}
+
+.Btn {
+    width: 15%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: #f2f3f4;
+}
+
+.Btn:hover {
+    z-index: auto;
+    cursor: pointer;
+    transform: scale(1.2, 1.2);
+    background-color: #00ffff;
+    opacity: 0.7;
+}
+
+#completeBtn {
+    background-image: url('../assets/sword_02c.png');
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#deleteBtn {
+    background-image: url('../assets/shield_03c.png');
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#inventoryBtn {
+    background-image: url('../assets/backpack.png');
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#addTaskBtn {
+    background-image: url('../assets/book_04g.png');
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#delTaskBtn {
+    background-image: url('../assets/skull_01a.png');
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+button {
+border-style: none;
+}
+

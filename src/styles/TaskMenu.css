@@ -1,0 +1,23 @@
+.taskMenu {
+    height: 65vh;
+    border-radius: 12px;
+    margin-top: 3%;
+    overflow: scroll;
+    background-color: #f2f3f4;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    text-align: center;
+}
+
+.taskDesc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20px;
+    border-radius: 12px;
+    margin: 0 auto;
+    background-color: #fffafa;
+    box-shadow: #3c40434d 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    font-size: 0.5em;
+    width: 100%;
+    text-align: left;
+}

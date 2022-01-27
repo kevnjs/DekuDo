@@ -1,0 +1,90 @@
+.display {
+    display: none;
+}
+
+.addTaskMenu {
+    z-index: 9;
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    left: 17%;
+    top: 31%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    /* margin-left: 48%;
+    margin-top: 1%; */
+    z-index: 9;
+    position: absolute;
+    background-color: #f2f3f4;
+}
+
+.exIcon {
+    position: relative;
+    opacity: 0.2;
+    text-align: right;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.exIcon:hover {
+    opacity: 0.7;
+}
+
+#enterTask {
+    display: flex; 
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#enterTaskName, #enterXP, #enterCategory, #enterDate {
+    margin-top: 3%;
+    padding: 1%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    line-height: 1.6;
+    margin: 0 auto;
+    font-size: 1em;
+}
+
+
+.taskName {
+    width: 30%;
+}
+
+.textInput {
+    border-style: none;
+    max-width: 70%;
+    width: 65%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.textInput:hover {
+    opacity: 0.7;
+}
+
+.xp {
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.submit {
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 1%;
+    margin: 9% auto;
+    width: 25%;
+    line-height: 1.7;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+
+.submit:hover {
+    opacity: 0.7;
+    background-color: #00ffff;
+}
